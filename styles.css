@@ -1,4 +1,19 @@
 img {
-    max-height: 150px;
+    max-height: 250px;
 
+}
+
+body {
+    background-color: #ADD8E6;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
 }
