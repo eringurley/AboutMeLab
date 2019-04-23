@@ -32,13 +32,23 @@ input {
 }
 
 #submit {
-    margin-bottom: 15 px;
-    height: 40px;
-    width: 120px;
+    margin-bottom: 40 px;
+    height: 20px;
+    width: 200px;
     display: block;
+    margin-top: 40px;
 }
 
 span {
     display: block;
-    margin-bottom: 40px;
+    margin-top: 40px;
+   
+}
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: purple;
 }
