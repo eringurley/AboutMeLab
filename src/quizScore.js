@@ -1,29 +1,29 @@
-function quizScore(like1, like2, dislike1, dislike2, dislike3) {
+function quizScore(likeOne, likeTwo, dislikeOne, dislikeTwo, dislikeThree) {
     let score = 0;
 
-    like1 = like1.toLowerCase();
-    like2 = like2.toLowerCase();
-    dislike1 = dislike1.toLowerCase();
-    dislike2 = dislike2.toLowerCase();
-    dislike3 = dislike3.toLowerCase();
+    likeOne = likeOne.toLowerCase();
+    likeTwo = likeTwo.toLowerCase();
+    dislikeOne = dislikeOne.toLowerCase();
+    dislikeTwo = dislikeTwo.toLowerCase();
+    dislikeThree = dislikeThree.toLowerCase();
 
-    if(like1 === 'writing poetry.' || like1 === 'traveling to new places.' || like1 === 'riding motorbikes.'){
+    if(likeOne === 'writing poetry.' || likeOne === 'traveling to new places.' || likeOne === 'riding motorbikes.'){
         score++;
     }
 
-    if(like2 === 'writing poetry.' || like2 === 'traveling to new places.' || like2 === 'riding motorbikes.'){
+    if(likeTwo === 'writing poetry.' || likeTwo === 'traveling to new places.' || likeTwo === 'riding motorbikes.'){
         score++;
     }
 
-    if(dislike1 === 'mustard.' || dislike1 === 'walking up multiple flights of stairs.' || dislike1 === 'flossing.'){
+    if(dislikeOne === 'mustard.' || dislikeOne === 'walking up multiple flights of stairs.' || dislikeOne === 'flossing.'){
         score++;
     }
 
-    if(dislike2 === 'mustard.' || dislike2 === 'walking up multiple flights of stairs.' || dislike2 === 'flossing.'){
+    if(dislikeTwo === 'mustard.' || dislikeTwo === 'walking up multiple flights of stairs.' || dislikeTwo === 'flossing.'){
         score++;
     }
 
-    if(dislike3 === 'mustard.' || dislike3 === 'walking up multiple flights of stairs.' || dislike3 === 'flossing.'){
+    if(dislikeThree === 'mustard.' || dislikeThree === 'walking up multiple flights of stairs.' || dislikeThree === 'flossing.'){
         score++;
     }
 
