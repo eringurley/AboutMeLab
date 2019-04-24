@@ -6,7 +6,7 @@ const likeOne = document.getElementById('likeOne');
 const likeTwo = document.getElementById('likeTwo');
 const dislikeOne = document.getElementById('dislikeOne');
 const dislikeTwo = document.getElementById('dislikeTwo');
-const dislike3Input = document.getElementById('dislikeThree');
+const dislikeThree = document.getElementById('dislikeThree');
 
 submitButton.addEventListener('click', () => {
     const likeOne = likeOne.value;
