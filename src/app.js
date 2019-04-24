@@ -11,7 +11,7 @@ const dislikeThree = document.getElementById('dislikeThree');
 submitButton.addEventListener('click', () => {
     const likeOne = likeOne.value;
     const likeTwo = likeTwo.value;
-    const dislikeOne= dislikeOne.value;
+    const dislikeOne = dislikeOne.value;
     const dislikeTwo = dislikeTwo.value;
     const dislikeThree = dislikeThree.value;
 
@@ -21,9 +21,8 @@ submitButton.addEventListener('click', () => {
     }
     
     const quizScore = quizScore(likeOne, likeTwo, dislikeOne, dislikeTwo, dislikeThree);
-    const message = 'Your score' + score + '/5 correct';   
     
-    quizResult.textContent = message; 
+
 
     if(score <2) {
         quizResult.classList.add('bad');
@@ -32,3 +31,6 @@ submitButton.addEventListener('click', () => {
     else {
         quizResult.classList.add('good');
         quizResult.classList.remove('bad');
+
+    quizResult.textContent = 'Your score: ' + score + ' Your percentage: ' + (score / 5) + '%';
+    }); 
