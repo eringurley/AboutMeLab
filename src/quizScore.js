@@ -30,5 +30,7 @@ function quizScore(like1, like2, dislike1, dislike2, dislike3) {
     return score;
 }
 
+
+
 export default quizScore;
 

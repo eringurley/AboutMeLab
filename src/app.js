@@ -32,4 +32,4 @@ submitButton.addEventListener('click', () => {
     else {
         quizResult.classList.add('good');
         quizResult.classList.remove('bad');
-    }
+    }); 
