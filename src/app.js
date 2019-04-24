@@ -30,6 +30,6 @@ submitButton.addEventListener('click', () => {
         }     
     }
 
-    quizResult.textContent = 'Your score: ' + score + ' Your percentage: ' + (score / 5) + '%';
+    quizResult.textContent = 'Your score: ' + score + ' Your percentage: ' + ((score / 5) * 100) + '%';
     
 });

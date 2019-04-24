@@ -7,6 +7,8 @@ function quizScore(likeOne, likeTwo, dislikeOne, dislikeTwo, dislikeThree) {
     dislikeTwo = dislikeTwo.toLowerCase();
     dislikeThree = dislikeThree.toLowerCase();
 
+    
+
     if(likeOne === 'writing.' || likeOne === 'traveling to new places.' || likeOne === 'riding motorbikes.'){
         score++;
     }
@@ -28,6 +30,7 @@ function quizScore(likeOne, likeTwo, dislikeOne, dislikeTwo, dislikeThree) {
     }
 
     return score;
+
 }
 
 export default quizScore;
