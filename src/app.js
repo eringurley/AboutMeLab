@@ -13,7 +13,7 @@ submitButton.addEventListener('click', () => {
     const likeTwo = likeTwo.value;
     const dislikeOne= dislikeOne.value;
     const dislikeTwo = dislikeTwo.value;
-    const dislike3Input = dislikeThree.value;
+    const dislikeThree = dislikeThree.value;
 
     if(likeOne.trim() === '' || likeTwo.trim() === '' || dislikeOne.trim() === '' || dislikeTwo.trim() === '' || dislikeThree.trim() === '') {
         alert = 'Please complete all answers.';
