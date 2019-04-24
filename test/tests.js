@@ -29,11 +29,11 @@ test('All entries are correct expecting 5', function(assert) {
     const dislikeThree = 'Flossing.';
     const expected = 5;
 
-    console.log(likeOne, 'Traveling to new places.')
-    console.log(likeTwo, 'likeTwo')
-    console.log(dislikeOne, 'dislikeOne')
-    console.log(dislikeTwo, 'dislikeTwo')
-    console.log(dislikeThree, 'dislikeThree')
+    console.log(likeOne, 'Traveling to new places.');
+    console.log(likeTwo, 'likeTwo');
+    console.log(dislikeOne, 'dislikeOne');
+    console.log(dislikeTwo, 'dislikeTwo');
+    console.log(dislikeThree, 'dislikeThree');
 
 
 
