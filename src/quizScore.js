@@ -7,23 +7,23 @@ function quizScore(like1, like2, dislike1, dislike2, dislike3) {
     dislike2 = dislike2.toLowerCase();
     dislike3 = dislike3.toLowerCase();
 
-    if(like1 === 'Writing poetry.' || like1 === 'Traveling to new places.' || like1 === 'Riding motorbikes.'){
+    if(like1 === 'writing poetry.' || like1 === 'traveling to new places.' || like1 === 'riding motorbikes.'){
         score++;
     }
 
-    if(like2 === 'Writing poetry.' || like2 === 'Traveling to new places.' || like2 === 'Riding motorbikes.'){
+    if(like2 === 'writing poetry.' || like2 === 'traveling to new places.' || like2 === 'riding motorbikes.'){
         score++;
     }
 
-    if(dislike1 === 'Mustard.' || dislike1 === 'Walking up multiple flights of stairs.' || dislike1 === 'Flossing'){
+    if(dislike1 === 'mustard.' || dislike1 === 'walking up multiple flights of stairs.' || dislike1 === 'flossing.'){
         score++;
     }
 
-    if(dislike2 === 'Mustard.' || dislike2 === 'Walking up multiple flights of stairs.' || dislike2 === 'Flossing'){
+    if(dislike2 === 'mustard.' || dislike2 === 'walking up multiple flights of stairs.' || dislike2 === 'flossing.'){
         score++;
     }
 
-    if(dislike3 === 'Mustard.' || dislike3 === 'Walking up multiple flights of stairs.' || dislike3 === 'Flossing'){
+    if(dislike3 === 'mustard.' || dislike3 === 'walking up multiple flights of stairs.' || dislike3 === 'flossing.'){
         score++;
     }
 
