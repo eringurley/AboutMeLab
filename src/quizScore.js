@@ -7,11 +7,11 @@ function quizScore(likeOne, likeTwo, dislikeOne, dislikeTwo, dislikeThree) {
     dislikeTwo = dislikeTwo.toLowerCase();
     dislikeThree = dislikeThree.toLowerCase();
 
-    if(likeOne === 'writing poetry.' || likeOne === 'traveling to new places.' || likeOne === 'riding motorbikes.'){
+    if(likeOne === 'writing.' || likeOne === 'traveling to new places.' || likeOne === 'riding motorbikes.'){
         score++;
     }
 
-    if(likeTwo === 'writing poetry.' || likeTwo === 'traveling to new places.' || likeTwo === 'riding motorbikes.'){
+    if(likeTwo === 'writing.' || likeTwo === 'traveling to new places.' || likeTwo === 'riding motorbikes.'){
         score++;
     }
 
@@ -30,7 +30,4 @@ function quizScore(likeOne, likeTwo, dislikeOne, dislikeTwo, dislikeThree) {
     return score;
 }
 
-
-
 export default quizScore;
-

@@ -31,4 +31,5 @@ submitButton.addEventListener('click', () => {
     }
 
     quizResult.textContent = 'Your score: ' + score + ' Your percentage: ' + (score / 5) + '%';
+    console.log(score, "score")
 });
