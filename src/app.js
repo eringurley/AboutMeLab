@@ -1,5 +1,4 @@
 import quizScore from './quizScore.js';
-
 const submitButton = document.getElementById('submitButton');
 
 const likeOne = document.getElementById('likeOne');

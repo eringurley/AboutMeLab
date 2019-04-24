@@ -27,7 +27,7 @@ test('All entries are correct expecting 4', function(assert) {
     const dislikeOne = 'Mustard.';
     const dislikeTwo = 'Walking up multiple flights of stairs.';
     const dislikeThree = 'Flossing.';
-    const expected = 4;
+    const expected = 5;
 
     //Act 
     // Call the function you're testing and set the result to a const
